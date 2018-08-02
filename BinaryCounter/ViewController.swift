@@ -22,4 +22,16 @@ class ViewController: UIViewController {
 
 
 }
-
+extension ViewController:CounterCellDelegate{
+    func minusButtonPressed(value: Int) {
+       // sum -= value
+        // sumLabel.text = "\(sum)"
+    }
+    
+    func plusButtonPressed(value: Int) {
+        
+        // sum += value
+        // sumLabel.text = "\(sum)"
+    }
+    
+}

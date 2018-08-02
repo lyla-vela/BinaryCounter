@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol CounterCellDelegate{
+    func minusButtonPressed(value:Int)
+    func plusButtonPressed(value:Int)
+}

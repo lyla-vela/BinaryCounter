@@ -15,6 +15,7 @@
 		BF331EF520F7FEA800126F2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF331EF320F7FEA800126F2B /* LaunchScreen.storyboard */; };
 		BF331F0020F7FEA800126F2B /* BinaryCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF331EFF20F7FEA800126F2B /* BinaryCounterTests.swift */; };
 		BF331F0B20F7FEA800126F2B /* BinaryCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF331F0A20F7FEA800126F2B /* BinaryCounterUITests.swift */; };
+		BF331F1920F7FECF00126F2B /* counterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF331F1820F7FECF00126F2B /* counterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BF331F0620F7FEA800126F2B /* BinaryCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF331F0A20F7FEA800126F2B /* BinaryCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCounterUITests.swift; sourceTree = "<group>"; };
 		BF331F0C20F7FEA800126F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF331F1820F7FECF00126F2B /* counterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				BF331EE720F7FEA700126F2B /* AppDelegate.swift */,
 				BF331EE920F7FEA700126F2B /* ViewController.swift */,
+				BF331F1820F7FECF00126F2B /* counterCell.swift */,
 				BF331EEB20F7FEA700126F2B /* Main.storyboard */,
 				BF331EF120F7FEA800126F2B /* Assets.xcassets */,
 				BF331EF320F7FEA800126F2B /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF331F1920F7FECF00126F2B /* counterCell.swift in Sources */,
 				BF331EF020F7FEA700126F2B /* BinaryCounter.xcdatamodeld in Sources */,
 				BF331EEA20F7FEA700126F2B /* ViewController.swift in Sources */,
 				BF331EE820F7FEA700126F2B /* AppDelegate.swift in Sources */,
